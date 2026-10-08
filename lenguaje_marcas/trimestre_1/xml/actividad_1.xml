@@ -1,0 +1,15 @@
+<xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>
+        Titulo
+    </titulo>
+    <autor>
+        Autor
+    </autor>
+    <genero>
+        Misterio
+    </genero>
+    <lanzamiento>
+        2024
+    </lanzamiento>
+</libro>
