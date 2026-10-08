@@ -1,0 +1,169 @@
+<xml version="1.0" encoding="UTF-8"?>
+<instituto>
+    <alumnos>
+        <alumno id="AL01">
+            <nombre>Juan</nombre>
+            <apellidos>Perez Gomez</apellidos>
+            <edad>20</edad>
+            <curso>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <nota>7.5</nota>
+                </asignatura>
+                <asignatura id="AS02">
+                    <nombre>Entornos de Desarrollo</nombre>
+                    <nota>8.2</nota>
+                </asignatura>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>9.1</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL02">
+            <nombre>Maria</nombre>
+            <apellidos>Lopez Ruiz</apellidos>
+            <edad>19</edad>
+            <curso>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <nota>8.7</nota>
+                </asignatura>
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informaticos</nombre>
+                    <nota>7.9</nota>
+                </asignatura>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>9.4</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL03">
+            <nombre>Pedro</nombre>
+            <apellidos>Martinez Silva</apellidos>
+            <edad>21</edad>
+            <curso>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</curso>
+            <asignaturas>
+                <asignatura id="AS02">
+                    <nombre>Entornos de Desarrollo</nombre>
+                    <nota>6.8</nota>
+                </asignatura>
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informaticos</nombre>
+                    <nota>8.5</nota>
+                </asignatura>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <nota>7.6</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL04">
+            <nombre>Ana</nombre>
+            <apellidos>Garcia Moreno</apellidos>
+            <edad>18</edad>
+            <curso>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <nota>9.0</nota>
+                </asignatura>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>8.8</nota>
+                </asignatura>
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informaticos</nombre>
+                    <nota>8.6</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+
+    <profesores>
+        <profesor id="PR01">
+            <nombre>Laura</nombre>
+            <apellidos>Castro Vega</apellidos>
+            <edad>35</edad>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <horario>08:00-10:00</horario>
+                </asignatura>
+                <asignatura id="AS02">
+                    <nombre>Entornos de Desarrollo</nombre>
+                    <horario>10:15-11:45</horario>
+                </asignatura>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horario>12:00-13:30</horario>
+                </asignatura>
+            </asignaturas>
+        </profesor>
+
+        <profesor id="PR02">
+            <nombre>Jose</nombre>
+            <apellidos>Navarro Ruiz</apellidos>
+            <edad>40</edad>
+            <asignaturas>
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informaticos</nombre>
+                    <horario>09:00-10:30</horario>
+                </asignatura>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horario>11:00-12:30</horario>
+                </asignatura>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <horario>13:00-14:30</horario>
+                </asignatura>
+            </asignaturas>
+        </profesor>
+
+        <profesor id="PR03">
+            <nombre>Elena</nombre>
+            <apellidos>Sanchez Diaz</apellidos>
+            <edad>33</edad>
+            <asignaturas>
+                <asignatura id="AS02">
+                    <nombre>Entornos de Desarrollo</nombre>
+                    <horario>08:30-10:00</horario>
+                </asignatura>
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informaticos</nombre>
+                    <horario>10:15-11:45</horario>
+                </asignatura>
+                <asignatura id="AS01">
+                    <nombre>Programacion</nombre>
+                    <horario>12:00-13:30</horario>
+                </asignatura>
+            </asignaturas>
+        </profesor>
+    </profesores>
+
+    <asignaturas>
+        <asignatura id="AS01">
+            <nombre>Programacion</nombre>
+            <alumnos_matriculados>22</alumnos_matriculados>
+        </asignatura>
+        <asignatura id="AS02">
+            <nombre>Entornos de Desarrollo</nombre>
+            <alumnos_matriculados>24</alumnos_matriculados>
+        </asignatura>
+        <asignatura id="AS03">
+            <nombre>Lenguaje de Marcas</nombre>
+            <alumnos_matriculados>20</alumnos_matriculados>
+        </asignatura>
+        <asignatura id="AS04">
+            <nombre>Sistemas Informaticos</nombre>
+            <alumnos_matriculados>25</alumnos_matriculados>
+        </asignatura>
+    </asignaturas>
+</instituto>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda_online>
+    <informacion_general>
+        <cif>B12345678</cif>
+        <nombre>MiTienda Online</nombre>
+        <email>ventas@mitiendaonline.com</email>
+        <telefono>+34 912 345 678</telefono>
+        <direccion>Calle Mayor 12, Madrid</direccion>
+    </informacion_general>
+
+    <catalogo_productos>
+        <producto id="PR01">
+            <nombre>Camiseta Básica</nombre>
+            <categoria>Ropa</categoria>
+            <precio>19.99</precio>
+            <stock>50</stock>
+            <activo>true</activo>
+        </producto>
+        <producto id="PR02">
+            <nombre>Portátil 14&quot;</nombre>
+            <categoria>Electrónica</categoria>
+            <precio>599.00</precio>
+            <stock>12</stock>
+            <activo>true</activo>
+        </producto>
+        <producto id="PR03">
+            <nombre>Sudadera Unisex</nombre>
+            <categoria>Ropa</categoria>
+            <precio>39.50</precio>
+            <stock>35</stock>
+            <activo>true</activo>
+        </producto>
+        <producto id="PR04">
+            <nombre>Teclado Mecánico</nombre>
+            <categoria>Oficina</categoria>
+            <precio>74.90</precio>
+            <stock>20</stock>
+            <activo>true</activo>
+        </producto>
+        <producto id="PR05">
+            <nombre>Altavoz Bluetooth</nombre>
+            <categoria>Electrónica</categoria>
+            <precio>89.99</precio>
+            <stock>18</stock>
+            <activo>true</activo>
+        </producto>
+    </catalogo_productos>
+
+    <clientes>
+        <cliente id="CL01">
+            <nombre>Laura</nombre>
+            <apellidos>García López</apellidos>
+            <email>laura.garcia@email.com</email>
+            <telefono>+34 600 111 222</telefono>
+            <direccion>Calle Sol 8, Valencia</direccion>
+        </cliente>
+        <cliente id="CL02">
+            <nombre>Javier</nombre>
+            <apellidos>Martín Ruiz</apellidos>
+            <email>javier.martin@email.com</email>
+            <telefono>+34 600 222 333</telefono>
+            <direccion>Avenida del Mar 21, Málaga</direccion>
+        </cliente>
+        <cliente id="CL03">
+            <nombre>Sofía</nombre>
+            <apellidos>Fernández Díaz</apellidos>
+            <email>sofia.fernandez@email.com</email>
+            <telefono>+34 600 333 444</telefono>
+            <direccion>Plaza del Ayuntamiento 3, Sevilla</direccion>
+        </cliente>
+        <cliente id="CL04">
+            <nombre>Daniel</nombre>
+            <apellidos>Pérez Moreno</apellidos>
+            <email>daniel.perez@email.com</email>
+            <telefono>+34 600 444 555</telefono>
+            <direccion>Ronda de la Libertad 15, Zaragoza</direccion>
+        </cliente>
+    </clientes>
+
+    <pedidos>
+        <pedido id="PE01">
+            <fecha>2026-09-10</fecha>
+            <cliente>CL01</cliente>
+            <direccion_envio>Calle Sol 8, Valencia</direccion_envio>
+            <estado>Enviado</estado>
+            <lista_productos>
+                <producto id="PR01">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>19.99</precio_unitario>
+                </producto>
+                <producto id="PR03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>39.50</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>79.48</total>
+        </pedido>
+
+        <pedido id="PE02">
+            <fecha>2026-09-11</fecha>
+            <cliente>CL02</cliente>
+            <direccion_envio>Avenida del Mar 21, Málaga</direccion_envio>
+            <estado>Procesando</estado>
+            <lista_productos>
+                <producto id="PR02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>599.00</precio_unitario>
+                </producto>
+                <producto id="PR04">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>74.90</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>673.90</total>
+        </pedido>
+
+        <pedido id="PE03">
+            <fecha>2026-09-12</fecha>
+            <cliente>CL03</cliente>
+            <direccion_envio>Plaza del Ayuntamiento 3, Sevilla</direccion_envio>
+            <estado>Entregado</estado>
+            <lista_productos>
+                <producto id="PR04">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>74.90</precio_unitario>
+                </producto>
+                <producto id="PR05">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>254.88</total>
+        </pedido>
+
+        <pedido id="PE04">
+            <fecha>2026-09-13</fecha>
+            <cliente>CL04</cliente>
+            <direccion_envio>Ronda de la Libertad 15, Zaragoza</direccion_envio>
+            <estado>Pendiente</estado>
+            <lista_productos>
+                <producto id="PR01">
+                    <cantidad>3</cantidad>
+                    <precio_unitario>19.99</precio_unitario>
+                </producto>
+                <producto id="PR05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>149.96</total>
+        </pedido>
+
+        <pedido id="PE05">
+            <fecha>2026-09-14</fecha>
+            <cliente>CL01</cliente>
+            <direccion_envio>Calle Sol 8, Valencia</direccion_envio>
+            <estado>Cancelado</estado>
+            <lista_productos>
+                <producto id="PR03">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>39.50</precio_unitario>
+                </producto>
+                <producto id="PR05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+            </lista_productos>
+            <total>168.99</total>
+        </pedido>
+    </pedidos>
+
+</tienda_online>

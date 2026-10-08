@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="PE01">
+        <fecha>18/09/2026</fecha>
+        <datos_cliente>
+            <nombre>Juan</nombre>
+            <email>juan.perez@example.com</email>
+            <telefono>987654321</telefono>
+        </datos_cliente>
+        <direccion_envio>calle Principal, 123</direccion_envio> 
+        <lita_prouctos>
+            <producto id="PR01">
+                <nombre>Portatil</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>800.00</precio_unitario>
+            </producto>
+            <producto id="PR03">
+                <nombre>Cascos con Microfono</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>50.00</precio_unitario>
+            </producto>
+        </lita_prouctos>
+        <total>850.00</total>
+    </pedido>
+    <pedido id="PE02">
+        <fecha>18/09/2026</fecha>
+        <datos_cliente>
+            <nombre>Marcos</nombre>
+            <email>marcos.garcia@example.com</email>
+            <telefono>123456789</telefono>
+        </datos_cliente>
+        <direccion_envio>calle Principal, 122</direccion_envio> 
+        <lita_prouctos>
+            <producto id="PR02">
+                <nombre>Ordenador sobremesa</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>1200.00</precio_unitario>
+            </producto>
+            <producto id="PR03">
+                <nombre>Cascos con Microfono</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>50.00</precio_unitario>
+            </producto>
+        </lita_prouctos>
+        <total>1250.00</total>
+    </pedido>
+    <pedido id="PE03">
+        <fecha>18/09/2026</fecha>
+        <datos_cliente>
+            <nombre>Alvaro</nombre>
+            <email>alvaro.lopez@example.com</email>
+            <telefono>555123456</telefono>
+        </datos_cliente>
+        <direccion_envio>calle Principal, 121</direccion_envio> 
+        <lita_prouctos>
+            <producto id="PR05">
+                <nombre>Television 4K Full HD</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>700.00</precio_unitario>
+            </producto>
+            <producto id="PR04">
+                <nombre>Altavoces</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>150.00</precio_unitario>
+            </producto>
+        </lita_prouctos>
+        <total>850.00</total>
+    </pedido>
+</pedidos>

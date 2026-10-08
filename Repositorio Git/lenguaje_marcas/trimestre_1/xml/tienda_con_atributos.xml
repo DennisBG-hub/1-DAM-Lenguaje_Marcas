@@ -1,0 +1,38 @@
+<xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <producto id="001">
+        <nombre>Camisa</nombre>
+        <precio>19.99</precio>
+        <marca>Camisa de algodón de manga larga</marca>
+        <stock>50</stock>
+        <categoria>Ropa</categoria>
+    </producto>
+    <producto id="002">
+        <nombre>Pantalón vaquero</nombre>
+        <precio>29.99</precio>
+        <marca>Denim Style</marca>
+        <stock>35</stock>
+        <categoria>Ropa</categoria>
+    </producto>
+    <producto id="003">
+        <nombre>Zapatillas deportivas</nombre>
+        <precio>49.99</precio>
+        <marca>SportRun</marca>
+        <stock>20</stock>
+        <categoria>Calzado</categoria>
+    </producto>
+    <producto id="004">
+        <nombre>Mochila escolar</nombre>
+        <precio>24.50</precio>
+        <marca>Urban Bag</marca>
+        <stock>15</stock>
+        <categoria>Accesorios</categoria>
+    </producto>
+    <producto id="005">
+        <nombre>Gorra</nombre>
+        <precio>12.99</precio>
+        <marca>StreetCap</marca>
+        <stock>40</stock>
+        <categoria>Accesorios</categoria>
+    </producto>
+</tienda>
