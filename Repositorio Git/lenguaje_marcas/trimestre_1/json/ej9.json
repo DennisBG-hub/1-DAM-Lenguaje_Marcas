@@ -1,0 +1,9 @@
+{
+    "nombre": "Alejandro",
+    "edad": 21,
+    "direccion": {
+        "calle": "Calle Falsa 123",
+        "ciudad": "Madrid",
+        "codigo_postal": "28013"
+    }
+}

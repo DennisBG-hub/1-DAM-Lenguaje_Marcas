@@ -1,0 +1,24 @@
+{
+    "nombre": "tienda",
+    "direccion":{
+        "calle": "Calle Falsa 123",
+        "ciudad": "Madrid"
+    },
+    "productos": [
+        {
+            "nombre": "portatil",
+            "precio": 1000,
+            "dispoinible": true
+        },
+        {
+            "nombre": "movil",
+            "precio": 500,
+            "dispoinible": false
+        },
+        {
+            "nombre": "tablet",
+            "precio": 300,
+            "dispoinible": true
+        }
+    ]
+}
