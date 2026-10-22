@@ -1,0 +1,121 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "usuario": "lucia_dev",
+        "perfil": {
+          "bio": "Desarrolladora web y aficionada a la fotografía.",
+          "ubicacion": "Madrid, España",
+          "verificado": true
+        },
+        "siguiendo": [2, 3]
+      },
+      {
+        "id": 2,
+        "usuario": "marcos_cocina",
+        "perfil": {
+          "bio": "Comparto recetas sencillas y productos de temporada.",
+          "ubicacion": "Valencia, España",
+          "verificado": false
+        },
+        "siguiendo": [1]
+      },
+      {
+        "id": 3,
+        "usuario": "ines_viaja",
+        "perfil": {
+          "bio": "Viajes, rutas y pequeños descubrimientos.",
+          "ubicacion": "Sevilla, España",
+          "verificado": false
+        },
+        "siguiendo": [1, 2]
+      }
+    ],
+    "publicaciones": [
+      {
+        "id": 101,
+        "autorId": 1,
+        "texto": "Nuevo proyecto web terminado. ¡Muy contenta con el resultado!",
+        "fecha": "2026-10-09T14:30:00",
+        "reacciones": {
+          "meGusta": 24,
+          "risa": 2,
+          "sorpresa": 5
+        },
+        "hashtags": ["desarrolloweb", "proyectos"]
+      },
+      {
+        "id": 102,
+        "autorId": 2,
+        "texto": "Hoy he preparado una receta de temporada con ingredientes locales.",
+        "fecha": "2026-10-10T11:15:00",
+        "reacciones": {
+          "meGusta": 18,
+          "risa": 3,
+          "sorpresa": 1
+        },
+        "hashtags": ["cocina", "temporada"]
+      },
+      {
+        "id": 103,
+        "autorId": 3,
+        "texto": "Una mañana tranquila recorriendo el casco antiguo.",
+        "fecha": "2026-10-11T09:45:00",
+        "reacciones": {
+          "meGusta": 32,
+          "risa": 1,
+          "sorpresa": 7
+        },
+        "hashtags": []
+      },
+      {
+        "id": 104,
+        "autorId": 1,
+        "texto": "Probando nuevas ideas para mejorar la accesibilidad.",
+        "fecha": "2026-10-12T16:20:00",
+        "reacciones": {
+          "meGusta": 15,
+          "risa": 0,
+          "sorpresa": 4
+        },
+        "hashtags": ["accesibilidad", "tecnologia"]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": 201,
+        "publicacionId": 101,
+        "autorId": 2,
+        "texto": "¡Enhorabuena! Se ve genial.",
+        "editado": false
+      },
+      {
+        "id": 202,
+        "publicacionId": 101,
+        "autorId": 3,
+        "texto": "Me encanta el diseño.",
+        "editado": true
+      },
+      {
+        "id": 203,
+        "publicacionId": 102,
+        "autorId": 1,
+        "texto": "¿Podrías compartir la receta?",
+        "editado": false
+      },
+      {
+        "id": 204,
+        "publicacionId": 103,
+        "autorId": 2,
+        "texto": "¡Qué bonito paseo!",
+        "editado": false
+      },
+      {
+        "id": 205,
+        "publicacionId": 104,
+        "autorId": 3,
+        "texto": "La accesibilidad es muy importante.",
+        "editado": true
+    }
+  ]
+}

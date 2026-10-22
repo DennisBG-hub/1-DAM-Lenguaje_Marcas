@@ -1,0 +1,234 @@
+{
+  "status": 200,
+  "ok": true,
+  "meta": {
+    "pagina": 1,
+    "porPagina": 4,
+    "totalResultados": 4,
+    "enlaces": {
+      "anterior": null,
+      "siguiente": null
+    },
+    "generadoEn": "2026-10-22T14:17:36"
+  },
+  "data": [
+    {
+      "id": 1,
+      "titulo": "La ciudad sumergida",
+      "genero": ["Ciencia ficción", "Aventura"],
+      "estreno": 2022,
+      "valoracion": {
+        "media": 8.4,
+        "votos": 12500
+      },
+      "reparto": [
+        {
+          "actor": "Elena Vidal",
+          "personaje": "Nora Salas",
+          "principal": true
+        },
+        {
+          "actor": "Tomás Rueda",
+          "personaje": "Bruno Leal",
+          "principal": true
+        },
+        {
+          "actor": "Inés Robles",
+          "personaje": "Mara",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Mareas extrañas",
+              "duracionMin": 48
+            },
+            {
+              "titulo": "Bajo el puerto",
+              "duracionMin": 52
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "episodios": [
+            {
+              "titulo": "La señal",
+              "duracionMin": 50
+            },
+            {
+              "titulo": "El mapa de sal",
+              "duracionMin": 54
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": false
+      },
+      "trailer": {
+        "url": "https://media.example.com/trailers/ciudad-sumergida",
+        "duracionSeg": 96
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Archivo Boreal",
+      "genero": ["Misterio", "Drama"],
+      "estreno": 2020,
+      "valoracion": {
+        "media": 7.9,
+        "votos": 8340
+      },
+      "reparto": [
+        {
+          "actor": "Claudia Navas",
+          "personaje": "Vera Montes",
+          "principal": true
+        },
+        {
+          "actor": "Hugo Ferrer",
+          "personaje": "Damián Cruz",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "La caja blanca",
+              "duracionMin": 44
+            },
+            {
+              "titulo": "Nombres borrados",
+              "duracionMin": 47
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": false,
+        "US": true
+      },
+      "trailer": null
+    },
+    {
+      "id": 3,
+      "titulo": "Café de las seis",
+      "genero": ["Comedia", "Romance"],
+      "estreno": 2024,
+      "valoracion": {
+        "media": 8.1,
+        "votos": 6210
+      },
+      "reparto": [
+        {
+          "actor": "Natalia Soler",
+          "personaje": "Clara Vidal",
+          "principal": true
+        },
+        {
+          "actor": "Marcos Beltrán",
+          "personaje": "Leo Campos",
+          "principal": true
+        },
+        {
+          "actor": "Rocío Mena",
+          "personaje": "Pilar",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "Mesa para dos",
+              "duracionMin": 31
+            },
+            {
+              "titulo": "El pedido equivocado",
+              "duracionMin": 29
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": true,
+        "MX": true,
+        "US": true
+      },
+      "trailer": {
+        "url": "https://media.example.com/trailers/cafe-de-las-seis",
+        "duracionSeg": 82
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Guardianes del valle",
+      "genero": ["Aventura", "Fantasía"],
+      "estreno": 2019,
+      "valoracion": {
+        "media": 7.6,
+        "votos": 10980
+      },
+      "reparto": [
+        {
+          "actor": "Samuel Ortega",
+          "personaje": "Ilan",
+          "principal": true
+        },
+        {
+          "actor": "Mireia Costa",
+          "personaje": "Sira",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "titulo": "La última semilla",
+              "duracionMin": 56
+            },
+            {
+              "titulo": "El puente de piedra",
+              "duracionMin": 51
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "episodios": [
+            {
+              "titulo": "Voces del bosque",
+              "duracionMin": 53
+            },
+            {
+              "titulo": "El juramento",
+              "duracionMin": 58
+            }
+          ]
+        }
+      ],
+      "disponibleEn": {
+        "ES": false,
+        "MX": true,
+        "US": true
+      },
+      "trailer": {
+        "url": "https://media.example.com/trailers/guardianes-del-valle",
+        "duracionSeg": 104
+      }
+    }
+  ],
+  "errores": []
+}

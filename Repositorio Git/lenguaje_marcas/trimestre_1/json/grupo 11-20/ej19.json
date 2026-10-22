@@ -1,0 +1,149 @@
+{
+    "nombre": "Clínica Salud Integral",
+    "direccion": {
+      "calle": "Calle del Prado 24",
+      "ciudad": "Madrid",
+      "codigoPostal": "28014"
+    },
+    "configuracion": {
+      "horarioApertura": "08:00",
+      "horarioCierre": "20:00",
+      "duracionCitaMinutos": 30
+    },
+    "medicos": [
+      {
+        "id": 1,
+        "nombre": "Elena Martín",
+        "especialidad": "Medicina general",
+        "colegiado": "M-28001",
+        "consultas": ["Lunes", "Martes", "Jueves"]
+      },
+      {
+        "id": 2,
+        "nombre": "Javier Ruiz",
+        "especialidad": "Dermatología",
+        "colegiado": "M-28002",
+        "consultas": ["Lunes", "Miércoles", "Viernes"]
+      },
+      {
+        "id": 3,
+        "nombre": "Clara Sánchez",
+        "especialidad": "Pediatría",
+        "colegiado": "M-28003",
+        "consultas": ["Martes", "Miércoles", "Jueves"]
+      }
+    ],
+    "pacientes": [
+      {
+        "id": 201,
+        "nombre": "Lucía Gómez",
+        "fechaNacimiento": "1992-04-18",
+        "seguro": {
+          "compania": "SaludPlus",
+          "numeroPoliza": "SP-458721"
+        },
+        "alergias": ["Polen"],
+        "historial": [
+          {
+            "fecha": "2026-09-12",
+            "diagnostico": "Rinitis alérgica",
+            "tratamiento": {
+              "medicamento": "Loratadina",
+              "dosis": "10 mg",
+              "duracionDias": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "nombre": "Mateo Pérez",
+        "fechaNacimiento": "1985-11-03",
+        "seguro": null,
+        "alergias": [],
+        "historial": [
+          {
+            "fecha": "2026-08-21",
+            "diagnostico": "Dermatitis de contacto",
+            "tratamiento": {
+              "medicamento": "Hidrocortisona",
+              "dosis": "Crema al 1 %, dos veces al día",
+              "duracionDias": 5
+            }
+          },
+          {
+            "fecha": "2026-03-10",
+            "diagnostico": "Cefalea tensional",
+            "tratamiento": {
+              "medicamento": "Paracetamol",
+              "dosis": "500 mg cada 8 horas si hay dolor",
+              "duracionDias": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "nombre": "Sara López",
+        "fechaNacimiento": "2016-07-29",
+        "seguro": {
+          "compania": "Bienestar Médico",
+          "numeroPoliza": "BM-903164"
+        },
+        "alergias": ["Ácaros", "Nueces"],
+        "historial": [
+          {
+            "fecha": "2026-05-06",
+            "diagnostico": "Otitis media",
+            "tratamiento": {
+              "medicamento": "Amoxicilina",
+              "dosis": "250 mg cada 8 horas",
+              "duracionDias": 7
+            }
+          }
+        ]
+      }
+    ],
+    "citas": [
+      {
+        "id": 301,
+        "pacienteId": 201,
+        "medicoId": 1,
+        "fecha": "2026-10-23T09:00:00",
+        "confirmada": true,
+        "notas": "Revisión general anual."
+      },
+      {
+        "id": 302,
+        "pacienteId": 202,
+        "medicoId": 2,
+        "fecha": "2026-10-23T10:30:00",
+        "confirmada": false,
+        "notas": null
+      },
+      {
+        "id": 303,
+        "pacienteId": 203,
+        "medicoId": 3,
+        "fecha": "2026-10-24T11:00:00",
+        "confirmada": true,
+        "notas": "Acudir con un adulto."
+      },
+      {
+        "id": 304,
+        "pacienteId": 201,
+        "medicoId": 2,
+        "fecha": "2026-10-26T16:00:00",
+        "confirmada": true,
+        "notas": "Consulta por irritación cutánea."
+      },
+      {
+        "id": 305,
+        "pacienteId": 202,
+        "medicoId": 1,
+        "fecha": "2026-10-27T12:30:00",
+        "confirmada": false,
+        "notas": null
+    }
+  ]
+}
