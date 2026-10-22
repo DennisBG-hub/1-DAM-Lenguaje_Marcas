@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 1001,
+      "cliente": {
+        "nombre": "Ana García",
+        "email": "ana.garcia@example.com",
+        "direccion": {
+          "calle": "Calle Mayor 12",
+          "ciudad": "Madrid",
+          "codigoPostal": "28013"
+        }
+      },
+      "producto": "Auriculares Inalámbricos",
+      "cantidad": 2,
+      "entregado": true
+    },
+    {
+      "numero": 1002,
+      "cliente": {
+        "nombre": "Carlos López",
+        "email": "carlos.lopez@example.com",
+        "direccion": {
+          "calle": "Avenida de la Constitución 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46009"
+        }
+      },
+      "producto": "Teclado Mecánico RGB",
+      "cantidad": 1,
+      "entregado": false
+    },
+    {
+      "numero": 1003,
+      "cliente": {
+        "nombre": "Elena Martínez",
+        "email": "elena.martinez@example.com",
+        "direccion": {
+          "calle": "Passeig de Gràcia 88",
+          "ciudad": "Barcelona",
+          "codigoPostal": "08008"
+        }
+      },
+      "producto": "Monitor 27 Pulgadas 4K",
+      "cantidad": 1,
+      "entregado": false
+    }
+  ]
+}

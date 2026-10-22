@@ -1,0 +1,108 @@
+{
+    "tienda" : {
+        "nombre" : "Tienda de Ropa",
+        "abierta" : true,
+        "contacto" : {
+            "telefono" : "123-456-789",
+            "email" : "info@tiendaderopa.com"
+        },
+        "categorias" : [
+            {
+                "id" : 1,
+                "nombre" : "Ropa",
+                "productos" : [
+                    {
+                        "sku" : "R001",
+                        "nombre" : "Camiseta",
+                        "precio" : 19.99,
+                        "stock" : 50,
+                        "etiquetas" : ["algodón", "verano"],
+                        "dimensiones" : {
+                            "alto" : 1.0,
+                            "ancho" : 1.0,
+                            "profundidad" : 0.5
+                        },
+                        "disponible" : true
+                    },
+                    {
+                        "sku" : "R002",
+                        "nombre" : "Pantalón Vaquero",
+                        "precio" : 39.99,
+                        "stock" : 35,
+                        "etiquetas" : ["denim", "casual"],
+                        "dimensiones" : {
+                            "alto" : 1.0,
+                            "ancho" : 0.4,
+                            "profundidad" : 0.3
+                        },
+                        "disponible" : true
+                    }
+                ]
+            },
+            {
+                "id" : 2,
+                "nombre" : "Calzado",
+                "productos" : [
+                    {
+                        "sku" : "C001",
+                        "nombre" : "Zapatillas Deportivas",
+                        "precio" : 49.99,
+                        "stock" : 30,
+                        "etiquetas" : ["deporte", "comodidad"],
+                        "dimensiones" : {
+                            "alto" : 0.12,
+                            "ancho" : 0.25,
+                            "profundidad" : 0.32
+                        },
+                        "disponible" : true
+                    },
+                    {
+                        "sku" : "C002",
+                        "nombre" : "Botas de Montaña",
+                        "precio" : 79.99,
+                        "stock" : 18,
+                        "etiquetas" : ["montaña", "resistentes"],
+                        "dimensiones" : {
+                            "alto" : 0.2,
+                            "ancho" : 0.3,
+                            "profundidad" : 0.35
+                        },
+                        "disponible" : true
+                    }
+                ]
+            },
+            {
+                "id" : 3,
+                "nombre" : "Tecnología",
+                "productos" : [
+                    {
+                        "sku" : "T001",
+                        "nombre" : "Auriculares Inalámbricos",
+                        "precio" : 39.99,
+                        "stock" : 25,
+                        "etiquetas" : ["bluetooth", "inalámbricos"],
+                        "dimensiones" : {
+                            "alto" : 0.05,
+                            "ancho" : 0.18,
+                            "profundidad" : 0.16
+                        },
+                        "disponible" : true
+                    },
+                    {
+                        "sku" : "T002",
+                        "nombre" : "Teclado Mecánico",
+                        "precio" : 69.99,
+                        "stock" : 20,
+                        "etiquetas" : ["teclado", "gaming"],
+                        "dimensiones" : {
+                            "alto" : 0.04,
+                            "ancho" : 0.44,
+                            "profundidad" : 0.14
+                        },
+                        "disponible" : true
+                    }
+                ]
+            }
+        ]
+    }
+}

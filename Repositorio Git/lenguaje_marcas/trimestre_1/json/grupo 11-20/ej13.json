@@ -1,0 +1,28 @@
+{
+    "productos": [
+        {
+            "nombre": "Camiseta",
+            "precio": 19.99,
+            "categoria": "Ropa",
+            "disponible": true
+        },
+        {
+            "nombre": "Pantalón",
+            "precio": 39.99,
+            "categoria": "Ropa",
+            "disponible": true
+        },
+        {
+            "nombre": "Zapatos",
+            "precio": 59.99,
+            "categoria": "Calzado",
+            "disponible": true
+        },
+        {
+            "nombre": "Gorra",
+            "precio": 14.99,
+            "categoria": "Accesorios",
+            "disponible": false
+        }
+    ]
+}

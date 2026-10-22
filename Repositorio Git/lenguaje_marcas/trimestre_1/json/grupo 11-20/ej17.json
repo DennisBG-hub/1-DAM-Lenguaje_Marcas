@@ -1,0 +1,149 @@
+{
+  "academia": {
+    "nombre": "Academia Horizonte",
+    "fundacion": 2012,
+    "sede": {
+      "ciudad": "Madrid",
+      "pais": "España",
+      "coordenadas": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      }
+    },
+    "cursos": [
+      {
+        "codigo": "WEB101",
+        "titulo": "Desarrollo web",
+        "profesor": {
+          "nombre": "Laura Sánchez",
+          "especialidades": ["HTML", "CSS", "JavaScript"],
+          "contacto": {
+            "email": "laura.sanchez@academiahorizonte.es",
+            "telefono": "600-123-456"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Lunes",
+            "inicio": "09:00",
+            "fin": "11:00"
+          },
+          {
+            "dia": "Miércoles",
+            "inicio": "09:00",
+            "fin": "11:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Ana García",
+            "activo": true,
+            "notas": [8.5, 9.0, 8.0],
+            "notaFinal": 8.5
+          },
+          {
+            "nombre": "Carlos López",
+            "activo": true,
+            "notas": [7.0, 6.5, 8.0],
+            "notaFinal": 7.2
+          },
+          {
+            "nombre": "Elena Martín",
+            "activo": false,
+            "notas": [9.0, 8.5],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "DAT202",
+        "titulo": "Introducción a bases de datos",
+        "profesor": {
+          "nombre": "Miguel Torres",
+          "especialidades": ["SQL", "Modelado de datos", "Bases de datos relacionales"],
+          "contacto": {
+            "email": "miguel.torres@academiahorizonte.es",
+            "telefono": "600-234-567"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Martes",
+            "inicio": "12:00",
+            "fin": "14:00"
+          },
+          {
+            "dia": "Jueves",
+            "inicio": "12:00",
+            "fin": "14:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Diego Ruiz",
+            "activo": true,
+            "notas": [7.5, 8.0, 8.5],
+            "notaFinal": 8.0
+          },
+          {
+            "nombre": "Lucía Fernández",
+            "activo": true,
+            "notas": [9.5, 9.0, 10.0],
+            "notaFinal": 9.5
+          },
+          {
+            "nombre": "Pablo Romero",
+            "activo": true,
+            "notas": [6.0, 7.0],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "ENG303",
+        "titulo": "Inglés profesional",
+        "profesor": {
+          "nombre": "Sofía Navarro",
+          "especialidades": ["Inglés técnico", "Conversación", "Preparación de exámenes"],
+          "contacto": {
+            "email": "sofia.navarro@academiahorizonte.es",
+            "telefono": "600-345-678"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Lunes",
+            "inicio": "16:00",
+            "fin": "18:00"
+          },
+          {
+            "dia": "Viernes",
+            "inicio": "16:00",
+            "fin": "18:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Marta Jiménez",
+            "activo": true,
+            "notas": [8.0, 8.5, 9.0],
+            "notaFinal": 8.5
+          },
+          {
+            "nombre": "Jorge Díaz",
+            "activo": false,
+            "notas": [6.5, 7.0, 7.5],
+            "notaFinal": 7.0
+          },
+          {
+            "nombre": "Paula Moreno",
+            "activo": true,
+            "notas": [9.0, 9.5],
+            "notaFinal": null
+          }
+        ]
+      }
+    ]
+  }
+}
+

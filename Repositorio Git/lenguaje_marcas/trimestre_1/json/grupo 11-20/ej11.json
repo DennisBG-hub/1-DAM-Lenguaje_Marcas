@@ -1,0 +1,19 @@
+{
+    "peliculas": [
+        {
+            "titulo": "El Padrino",
+            "director": "Francis Ford Coppola",
+            "year": 1972
+        },
+        {
+            "titulo": "Forrest Gump",
+            "director": "Robert Zemeckis",
+            "year": 1994
+        },
+        {
+            "titulo": "Inception",
+            "director": "Christopher Nolan",
+            "year": 2010
+        }
+    ]
+}
