@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dennis</title>
+        <link rel="stylesheet" href="estilos.css">
+
+        <script>
+            function saludar() {
+                alert("Hola, esto lo he programado yo");
+            }
+
+            let cuenta = 0;
+            function sumar() {
+                cuenta = cuenta + 1;
+                document.getElementById("marcador").textContent = cuenta;
+            }
+            
+            function mostrarSorpresa() {
+                alert("Lo has arreglado. Bienvenido al oficio.");
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1>Hola, me llamo Dennis</h1>
+        <p>Estudio 1.º de DAM y este es mi primer proyecto.</p>
+
+        <h2>Lo que quiero aprender este curso</h2>
+        <ul>
+            <li>Hacer una aplicación de móvil</li>
+            <li>Entender cómo trabaja un equipo de verdad</li>
+            <li>Conseguir unas prácticas que valgan la pena</li>
+        </ul>
+
+        <p>Mi editor es <a href="https://code.visualstudio.com">Visual Studio Code</a>.</p>
+
+        <img src="https://picsum.photos/400/200" alt="Imagen de ejemplo">
+
+        <!-- Esto es un comentario: el navegador no lo muestra -->
+
+        <button onclick="saludar()">Púlsame</button>
+
+        <h2 id="marcador">0</h2>
+        <button onclick="sumar()">Sumar 1</button>
+
+        <button onclick="mostrarSorpresa()">Sorpresa</button>
+
+        <p><a href="aficiones.html">Ver mis aficiones</a></p>
+    </body>
+</html>

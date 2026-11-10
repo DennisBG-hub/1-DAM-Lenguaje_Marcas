@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentación de WeatherAPI</title>
+</head>
+<body>
+
+    <header>
+        <h1>WeatherAPI</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#autenticacion">Autenticación</a></li>
+                <li><a href="#endpoint-usuarios">Endpoint de usuarios</a></li>
+                <li><a href="#endpoint-ciudades">Endpoint de ciudades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>Bienvenido a la documentación oficial de WeatherAPI. Esta API permite consultar información meteorológica y de ubicación en tiempo real.</p>
+        <p>
+            Para obtener información detallada de la API original, puedes 
+            <a href="https://www.weatherapi.com/docs/" target="_blank">Consultar documentación oficial</a> (enlace externo).
+        </p>
+    </section>
+
+    <section id="autenticacion">
+        <h2>Autenticación</h2>
+        <p>Todas las peticiones a WeatherAPI requieren una clave de API (API Key) en la cabecera HTTP.</p>
+        <p>
+            Para conocer más detalles sobre la protección de datos y el manejo de claves, revisa nuestra 
+            <a href="https://www.weatherapi.com/privacy.aspx" target="_blank">Política de seguridad</a> (enlace externo).
+        </p>
+    </section>
+
+    <section id="endpoint-usuarios">
+        <h2>Endpoint de usuarios</h2>
+        <p>Permite gestionar las cuentas de usuario asociadas a la API.</p>
+        <code>GET /v1/users/me</code>
+    </section>
+
+    <section id="endpoint-ciudades">
+        <h2>Endpoint de ciudades</h2>
+        <p>Permite consultar los datos meteorológicos por ciudad.</p>
+        <code>GET /v1/current.json?q=Madrid</code>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si necesitas asistencia técnica, ponte en contacto con nuestro equipo de soporte.</p>
+        <p><a href="mailto:soporte@example.com">Enviar correo al equipo de soporte</a></p>
+    </section>
+
+</body>
+</html>
